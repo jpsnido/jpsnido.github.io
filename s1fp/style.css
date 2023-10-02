@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@700&display=swap');
+
+#ExploreTheBoxes{
+    left: 416px; 
+    top: 157px; 
+    position: absolute; 
+    color: black; 
+    font-size: 62px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600; 
+    word-wrap: break-word"
+}
+
+#TheyReFun{
+    left: 632px; 
+    top: 250px; 
+    position: absolute; 
+    color: black; font-size: 32px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200; 
+    word-wrap: break-word"
+}
+
+#Rectangle1{
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #EB3349 0%, #F45C43 100%);  
+    border-radius: 20px;
+}
+
+#Rectangle2{
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);  
+    border-radius: 20px
+}
+
+#Rectangle3{
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #56AB2F 0%, #A8E063 100%);  
+    border-radius: 20px
+}
+
+#Rectangle4{
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);  
+    border-radius: 20px
+}
+
+#Rectangle5{
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%); 
+    border-radius: 20px
+}
