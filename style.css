@@ -119,7 +119,7 @@
 
 #meettheanimal {
     display: flex;
-    padding: 25vw 25vw 20px 25vw;
+    padding: 25vw 25vw 50px 25vw;
     gap: 50px;
     font-family: 'Space Mono', monospace;
     max-width: 40%;
