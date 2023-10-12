@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Racing+Sans+One&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Racing+Sans+One&family=Roboto:wght@700&family=Space+Mono&display=swap');
+
+#ExploreTheBoxes{
+    left: 416px; 
+    top: 157px; 
+    position: absolute; 
+    color: black; 
+    font-size: 62px; 
+    font-family: 'Space Mono', monospace; 
+    font-weight: 600; 
+}
+
+#TheyReFun{
+    left: 632px; 
+    top: 250px; 
+    position: absolute; 
+    color: black; font-size: 32px; 
+    font-family: 'Space Mono', sans-serif; 
+    font-weight: 200; 
+}
+
+.RectangleWrapper {
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+}
+
+.RectangleWrapper img {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+#Rectangle1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #EB3349 0%, #F45C43 100%);  
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#Rectangle2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);  
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#Rectangle3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #56AB2F 0%, #A8E063 100%);  
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#Rectangle4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);  
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#Rectangle5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 200px; 
+    background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%); 
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.transition {
+    transition:60s;
+}
+
+.icon:hover{
+  margin-top: 150px;
+  height: 200%;
+  transition: .3s;
+}
+
+#Return{
+    color: rgb(255, 255, 255); 
+    font-size: 28px; 
+    font-family: 'Space Mono', monospace; 
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bearbody {
+    background: linear-gradient(90deg, #EB3349 0%, #F45C43 100%);
+}
+
+#meettheanimal {
+    display: flex;
+    padding: 25vw 25vw 20px 25vw;
+    gap: 50px;
+    font-family: 'Space Mono', monospace;
+    max-width: 40%;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+#theanimal {
+    width:100%;
+    height: auto;
+    filter: drop-shadow(1px 1px 2px #000000);
+}
+
+.heading {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    letter-spacing: 0.25ch;
+    
+    > span {
+      font-weight: 100;
+      
+    }
+    
+    > strong {
+      font-size: 28px;
+      font-weight: 300;
+    }
+    
+  }  
+
+.subheading {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.info {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 14px;
+}
+
+p {
+    line-height: 18px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+#dexlocation{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+#duckbody {
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);  
+
+}
+
+#turtlebody {
+    background: linear-gradient(90deg, #56AB2F 0%, #A8E063 100%);   
+
+}
+
+
+a, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+
+}
+
+#sharkbody {
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);  
+}
+
+#octopusbody {
+    background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);  
+}
